@@ -51,7 +51,7 @@ def add_new_contact():
 #add_new_contact()
 
 def search_contact():
-    print("Your can search a contact by surname, name, patronymic, phone number: ")
+    print("You can search a contact by surname, name, patronymic, phone number: ")
     search_by = input("Write here: ")
     return search_by
 
@@ -106,3 +106,6 @@ def exp_imp():
         return ipm_bd
     else:
         print('Wrong number')
+
+def message(m):
+    print(m)
